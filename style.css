@@ -5,6 +5,8 @@
 
 body{
   font-family: Arial, sans-serif;
+  margin: 0;
+  padding-top: 50px;
 }
 
 h1, h2, h3, h4{
@@ -19,9 +21,10 @@ p{
 
 /* overskrifter */
 h1{ font-size: 50px; margin-top: 25px; }
-h2{ font-size: 30px; margin-top: 20px; }
+h2{ font-size: 30px; margin-top: 0; }
 h3{ font-size: 25px; margin-top: 15px; }
 h4{ font-size: 20px; }
+
 
 figure{
   width: 50%;
@@ -37,4 +40,29 @@ figure img{
 
 .full-width-figure{
   width: 100%;
+}
+
+nav{
+  background-color: white;
+  height: 50px;
+  text-align: right;
+  position: fixed;
+  top:0;
+  width: 50%;
+}
+
+nav a{
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 17px 10px;
+  color: #698bc7;
+  text-decoration: none;
+}
+
+nav a:hover{
+  color: #415681;
+}
+
+article{
+  padding-top: 50px;
 }
