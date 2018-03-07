@@ -50,6 +50,7 @@ nav{
   position: fixed;
   top:0;
   width: 50%;
+  margin: auto;
 }
 
 nav a{
