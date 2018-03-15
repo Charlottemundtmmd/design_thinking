@@ -25,8 +25,12 @@ h2{ font-size: 30px; margin-top: 0; }
 h3{ font-size: 25px; margin-top: 15px; }
 h4{ font-size: 20px; }
 
+.italic{
+  font-style: italic;
+  margin: 30px 0;
+}
 
-figure{
+figure, .left-text{
   width: 50%;
   margin: 0 0 20px 0;
   float: left;
@@ -34,8 +38,35 @@ figure{
   padding: 10px;
 }
 
+.left-text{
+  margin: 0;
+}
+
 figure img{
   width: 100%;
+  margin-bottom: 8px;
+}
+
+img{
+  max-width: 100%;
+}
+
+iframe{
+  margin: auto;
+  box-shadow: 5px 5px 15px #707070;
+}
+
+.proto-link{
+  width: auto;
+  padding: 15px 20px;
+  background-color: #04669B;
+  color: white;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.proto-link:hover{
+  background-color: #007BBE;
 }
 
 .full-width-figure{
